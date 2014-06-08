@@ -1,0 +1,84 @@
+/* @override http://localhost/cnam/form2/css/styles_form1.css */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #fde2a7;
+}
+
+body {
+	margin-top: 10px;
+}
+
+#contact {
+	margin-left: 20px;
+	float: left;
+}
+
+#log {
+	float: left;
+	border-left: 1px dotted olive;
+	padding: 5px;
+	background-color: white;
+    margin-left: 3em;
+}
+
+#log h3 {
+	text-align: center;
+	border-bottom: 3px double olive;
+	padding-bottom: 10px;
+}
+
+#log p {
+	margin-top: 10px;
+}
+
+.form {
+	margin-bottom: 9px;
+	width: 19em;
+	background-color: #fde2a7;
+	padding:0;
+}
+
+.form label {
+	display: block;
+	color: #7b7b7b;
+	font-variant: small-caps;
+    font-weight: bold;
+	font-size: 0.9em;
+}
+
+.inputxt, .inputnum, .inputarea  {
+	background-color: #fff;
+	border: 1px solid #a4a4a4;
+	font: 0.92em "Courier New", Courier, mono;
+}
+.inputxt, .inputarea {
+	width: 20em;
+}
+.inputnum {
+	width: 7em;
+}
+.inputarea {
+	height: 10em;
+}
+
+.inputxt:focus, .inputnum:focus, .inputarea:focus {
+    background:#FFFFD1;
+}
+
+.confirm {
+}
+.petit {
+	font-size: x-small;
+	color: #7b7b7b;
+}
+
+.erreur {
+    border-color: #ff0000;
+    border-width: 4px;
+}
